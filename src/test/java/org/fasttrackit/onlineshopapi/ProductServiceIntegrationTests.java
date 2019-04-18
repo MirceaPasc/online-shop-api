@@ -104,5 +104,6 @@ public class ProductServiceIntegrationTests {
 
         assertThat(products.getTotalElements(), greaterThanOrEqualTo(1L));
 
+        // todo: for each product from the response assert that all criteria are matched
     }
 }
